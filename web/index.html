@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+    body{
+        background: #121920;
+    }
+    span{
+        color: #6AAAC9;
+        font-size: 30px;
+        font-weight: bold;
+        position: absolute;
+    }
+    </style>
+    <title>Simple Server</title>
+</head>
+<body>
+    <span id="span">loves contributing to ScoreLab.</span>
+    <script>
+    var span = document.getElementById("span");
+    var SCREEN_WIDHT = window.innerWidth / 2; var SCREEN_HEIGHT = window.innerHeight / 2;
+
+    span.style.left = SCREEN_WIDHT.toString() + "px";
+    span.style.top = SCREEN_HEIGHT.toString() + "px";
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "node-simple-server",
+  "version": "1.0.0",
+  "description": "A simple local server",
+  "main": "Server.js",
+  "scripts": {
+    "start": "node Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElhamAryanpur/GIC-Simple-Server.git"
+  },
+  "keywords": [
+    "Server",
+    "Local",
+    "Simple"
+  ],
+  "author": "Elham Aryanpur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ElhamAryanpur/GIC-Simple-Server/issues"
+  },
+  "homepage": "https://github.com/ElhamAryanpur/GIC-Simple-Server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
